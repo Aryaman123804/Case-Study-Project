@@ -1,7 +1,7 @@
 
 <html>
   <head>
-    <title>MobileNet</title>
+    <title>Case Study</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,33 +15,115 @@
   </head>
 
   <body>
-    <center>
+    
 
-<div class="col-xs-12 header_div"> 
-  <h2> Image Identification App 
-    <img src="logo.gif">
-  </h2>
+<div id="heading"> 
+  <label> Case Study </label>
+  <img src="https://i2.wp.com/theinteractivechurch.com/wp-content/uploads/2015/11/case-study-icon.gif?resize=278%2C223&ssl=1">
 </div>
+<hr>
+<br> <br>
 
-<div class="col-sm-6 col-xs-12 main_div">
-  <label> Webcam View- </label>
-  <div id="camera"></div>
-  <button onclick="take_snapshot()" class="btn btn-info"> Capture Image </button>
-</div>
+<ol>
+  <div class="text_images_and_result">
+    <li>
+      <b> Test Image- </b> <img id="image" src="https://images-na.ssl-images-amazon.com/images/I/41Leu3gBUFL.jpg" class="img-responsive"
+    </li>
+    <h5> Output On <b> Microsoft Azure: </b>
+      <span> Footwear </span>
+    </h5>
+    <h5> Output On <b> Mobilenet Model: </b>
+      <span> running shoe </span>
+    </h5>
+    <div class="bob3">
+      <h4> Result- Mobile net is more accurate. </h4>
+      <hr>
+      <h4> </h4>
+    </div>
+    
+  </div>
+  <hr>
 
-<div class="col-sm-6 col-xs-12 main_div">
-  <label> Snapshot-  </label>
-  <div id="result"></div>
-  <button onclick="check()" class="btn btn-success"> Identify Image </button>
-</div>
+  <div class="text_images_and_result">
+    <li>
+      <b> Test Image- </b> <img id="image" src="https://f1af951e8abcbc4c70b9-9997fa854afcb64e87870c0f4e867f1d.lmsin.net/1000007319314-1000007319313_01-750.jpg" class="img-responsive"
+    </li>
+    <h5> Output On <b> Microsoft Azure: </b>
+      <span> Tableware </span>
+    </h5>
+    <h5> Output On <b> Mobilenet Model: </b>
+      <span>  water bottle </span>
+    </h5>
+    <div class="bob3">
+      <h4> Result- </h4>
+      <hr>
+      <h4> Mobile Net is more accurate. </h4>
+    </div>
+    
+  </div>
+  <hr>
 
-<div class="col-xs-12 footer_div">
-  <h4 class="col-sm-6 col-xs-12">
-    <img src="blub.gif">
-    <span id="object_name"> </span>
-  </h4>
-</div>
+  <div class="text_images_and_result">
+    <li>
+      <b> Test Image- </b> <img id="image" src="https://img1.exportersindia.com/product_images/bc-full/2019/7/4657380/sun-glasses-1562129599-4981264.jpeg" class="img-responsive"
+    </li>
+    <h5> Output On <b> Microsoft Azure: </b>
+      <span> eyeglasses </span>
+    </h5>
+    <h5> Output On <b> Mobilenet Model: </b>
+      <span> sunglass </span>
+    </h5>
+    <div class="bob3">
+      <h4> Result- </h4>
+      <hr>
+      <h4> Mobile Net in more accurate. </h4>
+    </div>
+    
+  </div>
+  <hr>
 
+  <div class="text_images_and_result">
+    <li>
+      <b> Test Image- </b> <img id="image" src="https://images-na.ssl-images-amazon.com/images/I/61WixzlVuXL._UL1280_.jpg" class="img-responsive"
+    </li>
+    <h5> Output On <b> Microsoft Azure: </b>
+      <span> watch </span>
+    </h5>
+    <h5> Output On <b> Mobilenet Model: </b>
+      <span> digital watch  </span>
+    </h5>
+    <div class="bob3">
+      <h4> Result- </h4>
+      <hr>
+      <h4> Both are accurate. </h4>
+    </div>
+    
+  </div>
+  <hr>
+
+  <div class="text_images_and_result">
+    <li>
+      <b> Test Image- </b> <img id="image" src="https://img.joomcdn.net/2990223ba7ee5b421114600a65b768a4e28abddb_1024_1024.jpeg" class="img-responsive"
+    </li>
+    <h5> Output On <b> Microsoft Azure: </b>
+      <span> telephone </span>
+    </h5>
+    <h5> Output On <b> Mobilenet Model: </b>
+      <span> remote control </span>
+    </h5>
+    <div class="bob3">
+      <h4> Result- </h4>
+      <hr>
+      <h4>Mobile Net is more accurate. </h4>
+    </div>
+    
+  </div>
+  <hr>
+
+</ol>
+
+
+<center>
 <div class="copy_right_footer" >
   Developed by- WhiteHatJr Team
 </div>
